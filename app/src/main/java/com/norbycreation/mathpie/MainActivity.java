@@ -1,4 +1,5 @@
 package com.norbycreation.mathpie;
+// Shared project on GitHub on 27/12/2022
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
