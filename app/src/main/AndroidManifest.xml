@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.norbycreation.mathpie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TempEnding"></activity>
+        <activity
+            android:name=".Congratulations"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Level110Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level110"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level109Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level109"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level107Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level108"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level108Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level107"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level106Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level106"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level105Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level105"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level104Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level104"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level103Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level103"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level102Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level102"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level101Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level101"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level100Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level100"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level99Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level99"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level98Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level98"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level97Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level97"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level96Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level96"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level95Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level95"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level94Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level94"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level93Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level93"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level92Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level92"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level91Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level91"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level90Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level90"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level89Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level89"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level88Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level88"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level87Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level87"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level86Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level86"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level85Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level85"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level84Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level84"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level83Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level83"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level82Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level82"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level81Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level81"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level80Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level80"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level79Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level79"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level78Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level78"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level77Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level77"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level76Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level76"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level75Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level75"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level74Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level74"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level73Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level73"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level72Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level72"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level71Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level71"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level70Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level70"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level69Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level69"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level68Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level68"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level67Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level67"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level66Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level66"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level65Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level65"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level64Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level64"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level63Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level63"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level62Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level62"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level61Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level61"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level60Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level60"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level59Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level59"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level58Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level58"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level57Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level57"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level56Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level56"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level55Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level55"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level54Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level54"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level53Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level53"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level52Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level52"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level51Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level51"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level50Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level50"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level49Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level49"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level48Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level48"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level47Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level47"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level46Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level46"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level45Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level45"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level44Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level44"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level43Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level43"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level42Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level42"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level41Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level41"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level40Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level40"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level39Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level39"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level38Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level38"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level37Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level37"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level36Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level36"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level35Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level35"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level34Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level34"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level33Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level33"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level32Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level32"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level31Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level31"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level30Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level30"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level29Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level29"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level28Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level28"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level27Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level27"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level26Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level26"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level25Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level25"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level24Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level24"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level23Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level23"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level22Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level22"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level21Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level21"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level20Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level20"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level19Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level19"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level18Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level18"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level17Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level17"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level16Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level16"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level15Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level15"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level14Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level14"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level13Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level13"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level12Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level12"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level11Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level11"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level10Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level10"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level9Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level9"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level8Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level8"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level7Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level7"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level6Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level6"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level5Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level5"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level4Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level4"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level3Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level3"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level2Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level2"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level1Hint"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Level1"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level110"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level109"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level108"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level107"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level106"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level105"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level104"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level103"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level102"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level101"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level100"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level99"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level98"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level97"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level96"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level95"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level94"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level93"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level92"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level91"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level90"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level89"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level88"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level87"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level86"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level85"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level84"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level83"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level82"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level81"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level80"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level79"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level78"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level77"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level76"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level75"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level74"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level73"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level72"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level71"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level70"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level69"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level68"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level67"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level66"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level65"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level64"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level63"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level62"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level61"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level60"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level59"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level58"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level57"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level56"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level55"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level54"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level53"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level52"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level51"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level50"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level49"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level48"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level47"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level46"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level45"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level44"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level43"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level42"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level41"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level40"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level39"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level38"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level37"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level36"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level35"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level34"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level33"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level32"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level31"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level30"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level29"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level28"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level27"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level26"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level25"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level24"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level23"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level22"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level21"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level20"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level19"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level18"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level17"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level16"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level15"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level14"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level13"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level12"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level11"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level10"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level9"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level8"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level7"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level6"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level5"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level4"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Correct"
+            android:launchMode="singleTop"
+            android:theme="@style/MyTheme"/>
+        <activity
+            android:name=".Level3"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level2"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Level1"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Levels"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".Levels"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2808567025402378~7347624282" />
+
+        <provider
+            android:name=".MyFileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_path" />
+        </provider>
+    </application>
+
+</manifest>
+<!--<meta-data-->
+<!--android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+<!--android:value="ca-app-pub-3940256099942544~3347511713" />-->

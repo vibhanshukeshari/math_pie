@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/opacity_Eighty_percent </item>
+        <item name="colorPrimaryDark">@color/background_121212</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimation</item>
+    </style>
+
+    <style name="WindowAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@style/WindowAnimation</item>
+        <item name="colorPrimaryDark">#1c1c1c </item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/opacity_Eighty_percent</item>
+    </style>
+
+    <style name="LabelStyleRight">
+        <item name="android:background">@drawable/fab_bg_label_right</item>
+        <item name="android:textColor">@color/opacity_Eighty_percent</item>
+
+    </style>
+    <style name="LabelStyleLeft">
+        <item name="android:background">@drawable/fab_bg_label_left</item>
+        <item name="android:textColor">@color/opacity_Eighty_percent</item>
+
+    </style>
+
+
+</resources>

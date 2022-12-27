@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/drawable/background_l_r_botton_radius.xml" value="0.144" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/drawable/correct_animation.xml" value="0.163" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/drawable/correct_animation_white.xml" value="0.163" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/drawable/toggle_background.xml" value="0.1925" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/drawable/toogle.xml" value="0.1925" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_correct.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level1.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level10.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level100.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level100_hint.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level101.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level102.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level103.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level104.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level105.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level106.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level107.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level108.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level109.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level11.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level110.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level12.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level13.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level14.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level15.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level16.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level17.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level18.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level19.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level2.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level20.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level21.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level22.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level23.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level24.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level25.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level26.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level27.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level28.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level29.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level2_hint.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level3.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level30.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level31.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level32.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level33.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level34.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level35.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level36.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level37.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level38.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level39.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level4.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level40.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level41.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level42.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level43.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level44.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level45.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level46.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level47.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level48.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level49.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level5.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level50.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level51.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level52.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level53.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level54.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level55.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level56.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level57.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level58.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level59.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level6.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level60.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level61.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level62.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level63.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level64.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level65.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level66.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level67.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level68.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level69.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level6_hint.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level7.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level70.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level71.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level72.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level73.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level74.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level75.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level76.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level77.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level78.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level79.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level8.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level80.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level81.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level82.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level83.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level84.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level85.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level85_hint.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level86.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level87.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level88.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level89.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level9.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level90.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level91.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level92.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level93.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level94.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level95.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level96.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level97.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level98.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_level99.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_levels.xml" value="0.25" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/activity_temp_ending.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/custom_toast.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/settings_dialouge.xml" value="0.209375" />
+        <entry key="..\:/Users/Vibhu/AndroidStudioProjects/MathPie/app/src/main/res/layout/splash_screen.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

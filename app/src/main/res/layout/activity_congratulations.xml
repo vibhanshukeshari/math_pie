@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:forceDarkAllowed="false"
+    android:orientation="vertical"
+    android:background="@color/background_121212"
+    tools:context=".Correct">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Congratulations"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="You have successfully completed all the levels of MathPie."
+        android:textColor="@color/opacity_Eighty_percent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="50dp"
+        android:text="Remember : Hard Work Pays Off."
+        android:textColor="@color/opacity_sixty_percent"
+        android:textSize="10sp" />
+
+
+    <Button
+        android:id="@+id/main_menu"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background_121212"
+        android:gravity="start"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Main menu"
+        android:textColor="@color/opacity_Eighty_percent"
+        android:textSize="17sp"
+        app:cornerRadius="100dp"
+        app:icon="@drawable/ic_main_menu"
+        app:iconGravity="start"
+        app:iconPadding="10dp"
+        app:iconTint="@color/opacity_Eighty_percent" />
+
+    <Button
+        android:id="@+id/challenge"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background_121212"
+        android:gravity="start"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Challenge Friends"
+        android:textColor="@color/opacity_Eighty_percent"
+        android:textSize="17sp"
+        app:cornerRadius="100dp"
+        app:icon="@drawable/ic_challenge"
+        app:iconGravity="start"
+        app:iconPadding="10dp"
+        app:iconTint="@color/opacity_Eighty_percent" />
+
+    <Button
+        android:id="@+id/rate_us"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background_121212"
+        android:gravity="start"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Rate Us"
+        android:textColor="@color/opacity_Eighty_percent"
+        android:textSize="17sp"
+        app:cornerRadius="100dp"
+        android:layout_marginBottom="5dp"
+        app:icon="@drawable/ic_rate"
+        app:iconGravity="start"
+        app:iconPadding="10dp"
+        app:iconTint="@color/opacity_Eighty_percent" />
+
+        <Button
+            android:id="@+id/restart"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/background_121212"
+            android:gravity="start"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Restart"
+            android:textColor="@color/red_opacity_eighty_percent"
+            android:textSize="17sp"
+            app:cornerRadius="100dp"
+            android:layout_marginBottom="50dp"
+            app:icon="@drawable/ic_reset"
+            app:iconGravity="start"
+            app:iconPadding="10dp"
+            app:iconTint="@color/opacity_Eighty_percent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow us on :"
+        android:layout_margin="5dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <ImageButton
+            android:id="@+id/facebook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/facebook_icon_xd"
+            android:backgroundTint="#ffffff"/>
+
+
+        <ImageButton
+            android:id="@+id/instagram"
+            android:layout_margin="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/instagram_icon_xd"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

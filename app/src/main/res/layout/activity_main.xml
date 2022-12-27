@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:forceDarkAllowed="false"
+    android:background="@drawable/main_activity_screen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/progess">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:max="100"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/custom_progressbar_drawable"
+            android:progress="0"
+            android:secondaryProgress="0" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/progressBar"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/txtProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/progress"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/progess"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center">
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="150dp"
+                android:elevation="01dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/playButton"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/background_121212"
+                    android:gravity="start"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/play"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/opacity_Eighty_percent"
+                    android:textSize="24sp"
+                    app:cornerRadius="100dp"
+                    app:icon="@drawable/ic_play"
+                    app:iconGravity="start"
+                    app:iconPadding="4dp"
+                    app:iconTint="@color/opacity_Eighty_percent" />
+
+                <Button
+                    android:id="@+id/levelsButton"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/background_121212"
+                    android:gravity="start"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/levels"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/opacity_Eighty_percent"
+                    android:textSize="24sp"
+                    app:cornerRadius="100dp"
+                    app:icon="@drawable/ic_outline_apps_24"
+                    app:iconGravity="start"
+                    app:iconPadding="4dp"
+                    app:iconTint="@color/opacity_Eighty_percent" />
+
+                <ToggleButton
+                    android:id="@+id/soundsButton"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/toggle_background"
+                    android:checked="true"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:drawableStart="@drawable/toogle"
+                    android:elevation="4dp"
+                    android:focusable="true"
+                    android:gravity="center|start"
+                    android:paddingStart="13dp"
+                    android:paddingEnd="13dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/opacity_Eighty_percent"
+                    android:textOff="@string/sounds_off"
+                    android:textOn="@string/sounds_on"
+                    android:textSize="24sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/exitButton"
+                    style="@style/Widget.MaterialComponents.Button.Icon"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/background_121212"
+                    android:gravity="start"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/exit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/opacity_Eighty_percent"
+                    android:textSize="24sp"
+                    app:cornerRadius="100dp"
+                    app:icon="@drawable/ic_exit"
+                    app:iconGravity="start"
+                    app:iconPadding="4dp"
+                    app:iconTint="@color/opacity_Eighty_percent" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:context=".MainActivity"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_more"
+            app:tint="@color/opacity_Eighty_percent"
+            app:backgroundTint="@color/background_121212"
+            app:borderWidth="0dp"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_settings_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:borderWidth="0dp"
+            android:backgroundTint="@color/opacity_Eighty_percent"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toTopOf="@+id/add_more"
+            app:layout_constraintEnd_toEndOf="@+id/add_more"
+            app:layout_constraintStart_toStartOf="@+id/add_more"
+            app:srcCompat="@drawable/ic_settings" />
+
+        <TextView
+            android:id="@+id/add_settings_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Settings"
+            style="@style/LabelStyleLeft"
+            app:layout_constraintBottom_toBottomOf="@+id/add_settings_fab"
+            app:layout_constraintStart_toEndOf="@+id/add_settings_fab"
+            app:layout_constraintTop_toTopOf="@+id/add_settings_fab" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_rate_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:fabSize="mini"
+            app:borderWidth="0dp"
+            android:backgroundTint="@color/opacity_Eighty_percent"
+            app:layout_constraintBottom_toTopOf="@+id/add_settings_fab"
+            app:layout_constraintEnd_toEndOf="@+id/add_settings_fab"
+            app:layout_constraintStart_toStartOf="@+id/add_settings_fab"
+            app:srcCompat="@drawable/ic_rate" />
+
+        <TextView
+            android:id="@+id/add_rate_us_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Rate Us"
+            style="@style/LabelStyleLeft"
+            app:layout_constraintBottom_toBottomOf="@+id/add_rate_us"
+            app:layout_constraintStart_toEndOf="@+id/add_rate_us"
+            app:layout_constraintTop_toTopOf="@+id/add_rate_us" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_share_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:fabSize="mini"
+            app:borderWidth="0dp"
+            android:backgroundTint="@color/opacity_Eighty_percent"
+            app:layout_constraintBottom_toTopOf="@+id/add_rate_us"
+            app:layout_constraintEnd_toEndOf="@+id/add_rate_us"
+            app:layout_constraintStart_toStartOf="@+id/add_rate_us"
+            app:srcCompat="@drawable/ic_share" />
+
+        <TextView
+            android:id="@+id/add_share_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            style="@style/LabelStyleLeft"
+            android:text="Share App"
+            app:layout_constraintBottom_toBottomOf="@+id/add_share_fab"
+            app:layout_constraintStart_toEndOf="@+id/add_share_fab"
+            app:layout_constraintTop_toTopOf="@+id/add_share_fab" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        tools:context=".MainActivity"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_social_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_social"
+            app:fabSize="normal"
+            app:tint="@color/opacity_Eighty_percent"
+            app:backgroundTint="@color/background_121212"
+            app:borderWidth="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_instagram_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:fabSize="mini"
+            app:borderWidth="0dp"
+            android:backgroundTint="@color/opacity_Eighty_percent"
+            app:layout_constraintBottom_toTopOf="@+id/add_social_fab"
+            app:layout_constraintEnd_toEndOf="@+id/add_social_fab"
+            app:layout_constraintStart_toStartOf="@+id/add_social_fab"
+            app:srcCompat="@drawable/ic_instagram" />
+
+        <TextView
+            android:id="@+id/add_instagram_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Follow Us On"
+            style="@style/LabelStyleRight"
+            app:layout_constraintBottom_toBottomOf="@+id/add_instagram_fab"
+            app:layout_constraintEnd_toStartOf="@+id/add_instagram_fab"
+            app:layout_constraintTop_toTopOf="@+id/add_instagram_fab" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_facebook_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:fabSize="mini"
+            app:borderWidth="0dp"
+            android:backgroundTint="@color/opacity_Eighty_percent"
+            app:layout_constraintBottom_toTopOf="@+id/add_instagram_fab"
+            app:layout_constraintEnd_toEndOf="@+id/add_instagram_fab"
+            app:layout_constraintStart_toStartOf="@+id/add_instagram_fab"
+            app:srcCompat="@drawable/ic_facebook" />
+        <TextView
+            android:id="@+id/add_facebook_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="follow Us On"
+            style="@style/LabelStyleRight"
+            app:layout_constraintBottom_toBottomOf="@+id/add_facebook_fab"
+            app:layout_constraintEnd_toStartOf="@+id/add_facebook_fab"
+            app:layout_constraintTop_toTopOf="@+id/add_facebook_fab" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
+
+
+

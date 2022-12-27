@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC6</color>
+    <color name="background_121212">#121212</color>
+    <color name="opacity_five_percent">#0dffffff</color>
+    <color name="opacity_Eighty_seven_percent">#deffffff</color>
+    <color name="opacity_seventy_five_percent">#bfffffff</color>
+    <color name="opacity_sixty_percent">#99ffffff</color>
+    <color name="opacity_fifty_percent">#80ffffff</color>
+    <color name="opacity_three_percent">#08ffffff</color>
+    <color name="opacity_Eighty_percent">#ccffffff</color>
+    <color name="red_opacity_eighty_percent">#ccff0000</color>
+    <color name="light_gray">#666666</color>
+    <color name="dark_green">#006440</color>
+</resources>
